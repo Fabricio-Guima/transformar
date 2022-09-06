@@ -257,16 +257,15 @@ display: flex;
 }
 
 .staff-name {
-  
+  width: 116px;
   font-size: 1.2rem;
   font-weight: 600;
   color: #6a267d;
   margin-right: 1rem;
 }
 
-.staff-role {
-  
-  max-width: 450px;
+.staff-role {   
+  width: 350px;
   text-align: center;
   font-size: 0.75rem;
   color: #c6a4c7;
@@ -462,8 +461,7 @@ div.tecs {
   position: relative;
 }
 
-.profile-pic-content {
-  flex: 1;
+.profile-pic-content { 
   width: 150px;
   height: 130px;
   border-radius: 50%; 
