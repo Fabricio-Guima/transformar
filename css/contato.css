@@ -3,15 +3,14 @@
   padding: 15px 30px;
   margin: 40px auto 0 auto;
   border-radius: 4px;
-  position: relative;
-  background: #2e2B3F;
+  position: relative; 
   font-family: 'IBM Plex Mono', monospace;
 
 }
 
 .title h3 {
-  clear: blueviolet;
-  color: #fff;
+  clear: #6a267d;
+  color: #6a267d;
   letter-spacing: 0.1rem;
   margin-bottom: 12px;
   text-align: center;
@@ -25,7 +24,7 @@
   display: flex;
   justify-content: center;
   margin-bottom: 12px;
-  color: blueviolet;
+  color: #6a267d;
 }
 
 .form,
@@ -38,20 +37,23 @@
   width: 100%;
   margin-bottom: 12px;
   padding: 15px 36px;
-  box-sizing: border-box;
-  background: blueviolet;
-  border: 2px solid blueviolet;
+  box-sizing: border-box; 
+  border: 2px solid #6a267d;
   border-radius: 30px;
   font-family: 'IBM Plex Mono', monospace;
-  color: #fff;
+  color: #6a267d;
   font-size: 1rem;
+}
 
-
+.form-items .input::placeholder { 
+  color: #c6a4c7;
+  opacity: 1; 
 }
 
 .form-items .input:focus {
-  border: none;
-  outline: none;
+  border-color: #6a267d;
+  color: #6a267d;
+ 
 }
 
 .form-items .input.message {
@@ -65,10 +67,10 @@
   display: block;
   margin: 0 auto 12px auto;
   width: 160px;
-  border: 1px solid blueviolet;
+  border: 1px solid #6a267d;
   border-radius: 100px;
   background: transparent;
-  color: #fff;
+  color: #6a267d;
   text-align: center;
   padding: 10px;
   text-transform: uppercase;
@@ -79,7 +81,7 @@
 }
 
 .btn:focus {
-  outline: none;
+  color: #6a267d;
 }
 
 .btn .fas {
@@ -95,13 +97,13 @@
   position: absolute;
   top: 15px;
   left: 15px;
-  color: #fff;
+  color: #6a267d;
 }
 
 .btn:hover {
-  background-color: blueviolet;
-  box-shadow: 0 5px 50px 0 blueviolet inset, 0 5px 50px 0 blueviolet,
-    0 5px 50px 0 blueviolet inset, 0 5px 50px 0 blueviolet;
+  background-color: #6a267d;
+  color: white;
+ 
   transition: all .2s;
 }
 

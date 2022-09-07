@@ -4,6 +4,7 @@
   }
 
   .menu {
+    cursor: pointer;
     margin-right: 10px;
   }
 
@@ -52,6 +53,7 @@
   }
 
   .menu {
+    cursor: pointer;
     margin-right: 10px;
   }
 
@@ -157,14 +159,14 @@
 
   /*resolvendo o problema do gap entre o menu pequeno e o menu mobile*/
   .nav-bar-padrao {
-    background: rgba(78, 49, 136, 1);
+    background: #6a267d;
     top: 90px;
     height: calc(100vh - 90px);
     transition: all .3s;
   }
 
   .nav-bar-modificado {
-    background: rgba(78, 49, 136, 0.9);
+    background: #6a267d;
     top: 70px;
     height: calc(100vh - 70px);
     transition: all .3s;
@@ -264,6 +266,14 @@
   }
 
   .ghost-info {
+    display: none;
+  }
+
+  .ghost-visao-left {
+    display: none;
+  }
+
+  .ghost-visao-right {
     display: none;
   }
 }

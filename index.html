@@ -16,7 +16,7 @@
 <body>
   <!--header-->
   <header class="header-padrao">
-    <div class="container" style="justify-content: center;">
+    <div class="container" style="justify-content: flex-end;">
       <!-- <div class="logo">
         <a href="#home">
           <h2>Fabrício dev</h2>
@@ -172,86 +172,44 @@
      
     </section>
 
-    <section id="visao"  style="padding-top: 100px;">
+    <section id="visao"  style="padding-top: 100px; margin-bottom: 10px;">
 
       <h2>Valores que nos guiam</h2>
       <div class="visao-container">
         <ul class="visao-lista">
           <li>
-            Empatia produtiva
+            <p>
+              Empatia produtiva
+            </p>
+            <div class="ghost-visao-right"></div>
           </li>
           <li>
-            Acolher de forma transparente 
+            <div class="ghost-visao-left"></div>
+            <p>
+              Acolher de forma transparente 
+            </p>
+          </li>
+          <li>  
+             
+            <p>
+              Comprometimento com a jornada de transformação
+            </p>
+            <div class="ghost-visao-right"></div>
           </li>
           <li>
-            Comprometimento com a jornada de transformação
+            <div class="ghost-visao-left"></div>
+            <p>
+              Alegria
+            </p>
           </li>
           <li>
-            Alegria
-          </li>
-          <li>
-            Respeito acima de tudo
+            <p>
+              Respeito acima de tudo
+            </p>
+            <div class="ghost-visao-right"></div>
           </li>
         </ul>
        
-
-      </div>
-    </section>
-
-    <section id="nada">
-
-      <h2>nada</h2>
-
-      <div class="container2">
-
-        <div class="vcard">
-
-          <div class="header">
-
-            <div class="wave-bg">
-
-              <div class="wave-01"></div>
-              <div class="wave-02"></div>
-              <div class="wave-03"></div>
-            </div>
-
-            <div class="profile-pic-content">
-              <img class="profile-pic" src="img/user.png" alt="Fabrício">
-            </div>
-
-          </div>
-
-          <div class="card-content">
-
-            <div class="name">
-              <h4>Fabrício Guimarães</h4>
-            </div>
-
-            <div class="info">
-              <h5>
-                Apaixonado por tecnologia e tem como missão ajudar pessoas a expor suas empresas, negócios ou produtos
-                na Internet por meio de sites atraentes e acessíveis.
-              </h5>
-              <h4>Formação</h4>
-              <h5>UFF - Sistemas de informação - Superior incompleto</h5>
-              <h5>Técnico em informática</h5>
-
-            </div>
-
-
-            <div class="social">
-              <a href="https://github.com/Fabricio-Guima" target="_blank"><i class="fab fa-github fa-2x"
-                  aria-hidden="true"></i></a>
-              <a href="https://wa.me/5521983905777" target="_blank"><i class="fab fa-whatsapp fa-2x"
-                  aria-hidden=" true"></i></a>
-              <a href="https://t.me/Fabricio_Guima" target="_blank"><i class="fab fa-telegram fa-2x"
-                  aria-hidden="true"></i></a>
-
-            </div>
-
-          </div>
-
-        </div>
 
       </div>
     </section>
@@ -274,27 +232,30 @@
 
           </div>
 
-          <div class="form">
+          <form class="form"  action="https://formsubmit.co/seuemail@gmail.com"  method="post">
 
             <div class="form-items">
-              <input type="text" class="input" placeholder="Nome">
+             
+              <input type="text" class="input" name="name" required placeholder="Nome">
               <i class="fas fa-user mail"></i>
             </div>
 
             <div class="form-items">
-              <input type="email" class="input" placeholder="Email">
+              <input type="email" class="input" name="email" required placeholder="Email">
               <i class="fas fa-envelope"></i>
             </div>
 
             <div class="form-items">
-              <textarea class="input message" cols="30" rows="10" placeholder="Mensagem"></textarea class="">
+              <textarea class="input message" name="message" required cols="30" rows="10" placeholder="Mensagem"></textarea class="">
             </div>
+
+            <button type="submit" class="btn">
+              ENVIAR
+            </button> 
         
-        </div>
+        </form>
         
-        <button type="submit" class="btn">
-          ENVIAR
-        </button> 
+       
         
         </div>
       </div>
@@ -304,16 +265,7 @@
   <!--footer-->
   <footer>
  <div class="container-footer">
-   <p>Todos os direitos reservados © - 2020 </p>
-   <div class="social">
-    <a href="https://github.com/Fabricio-Guima" target="_blank"><i class="fab fa-github fa-2x"
-        aria-hidden="true"></i></a>
-    <a href="https://wa.me/5521983905777" target="_blank"><i class="fab fa-whatsapp fa-2x"
-        aria-hidden=" true"></i></a>
-    <a href="https://t.me/Fabricio_Guima" target="_blank"><i class="fab fa-telegram fa-2x"
-        aria-hidden="true"></i></a>
-
-  </div>
+   <p>Todos os direitos reservados © - 2022 </p> 
 
   </div>
 
@@ -326,7 +278,7 @@
     <i class="fas fa-chevron-up"></i>
   </a>
 
-  <!-- <script src="particles.js"></script> -->
+ 
   <script src="app.js"></script>
   <script src="js/app.js"></script>
   <script src="https://code.iconify.design/1/1.0.3/iconify.min.js"></script>
